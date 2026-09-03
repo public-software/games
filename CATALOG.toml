@@ -1,0 +1,24 @@
+# Machine-readable entry for this repository. Aggregated into public-software/catalog.
+# Edit here; `pub catalog sync` propagates description, topics and custom properties to GitHub.
+
+[repo]
+name        = "games"
+ring        = "domain"          # spine | platform | system | domain | standards
+layers      = ["L17"]
+wave        = 1
+tier        = "incubating"        # incubating | stable | core | archived
+maintainers = ["maint-games"]
+summary     = "Win32/DirectX compatibility layer, emulation {{PURPOSE}} preservation, server-authoritative anti-cheat standard + reference, storefront/launcher."
+
+# One [[component]] per crate, app or service this workspace publishes.
+# planned: pub-compat · pub-emu · pub-fairplay · pub-launcher
+#
+# [[component]]
+# crate     = "pub-games-example"
+# kind      = "lib"                # lib | app | service | plugin | spec
+# ledger    = "<ledger entry name>"
+# readiness = "none"               # shipped | partial | seed | none
+# effort    = 3
+# specs     = []
+# provides  = ["public:area/iface@1"]
+# requires  = []
